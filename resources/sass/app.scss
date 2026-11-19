@@ -6,3 +6,15 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .card {
+        flex-basis: calc(100% / 4 - 20px);
+    }
+
+}
